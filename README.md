@@ -5,7 +5,7 @@ How to use: - (if not running docker image)
 3. Open Command Prompt
 4. Type cd my-shopping (or directory where you unzipped your archive)
 5. Once in the my-shopping, type python3.6 -m venv venv
-6. Type source venv/bin/venv
+6. Type source venv/bin/activate
 7. You should see (venv) now
 8. Type pip install -r requirements.txt to install the required modules
 9. Type python app.py
