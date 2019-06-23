@@ -1,0 +1,5 @@
+---
+applications:
+ - name: python-s-cart-abasko2017
+   random-route: true
+   memory: 128M

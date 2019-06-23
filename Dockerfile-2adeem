@@ -1,0 +1,13 @@
+FROM python
+
+COPY *  /my-shopping-proj/
+
+WORKDIR /my-shopping-proj
+
+COPY requirements.txt .
+
+RUN pip install -r requirements.txt
+EXPOSE 5000
+# Run the application:
+COPY app.py .
+CMD ["python", "app.py"]
